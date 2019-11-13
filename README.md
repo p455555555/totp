@@ -2,7 +2,7 @@
 
 # totp
 
-TOTP算法node.js实现，支持动态密码获取、效验，可以搭配Google Authenticator使用
+TOTP算法node.js实现，支持动态密码生成、效验，可以搭配Google Authenticator使用
 
 ## 安装
 
