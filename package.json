@@ -1,0 +1,60 @@
+{
+    "name": "@nest-public/totp",
+    "version": "1.0.0",
+    "description": "TOTP算法node.js实现，支持动态密码获取、效验，可以搭配Google Authenticator使用",
+    "main": "lib/totp.js",
+    "types": "lib/totp.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "keywords": [
+        "node.js",
+        "totp",
+        "hotp"
+    ],
+    "dependencies": {
+        "qr-image": "^3.2.0",
+        "thirty-two": "^1.0.2"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.19",
+        "@types/node": "^10.12.18",
+        "jest": "^24.9.0",
+        "ts-jest": "^24.1.0",
+        "ts-node": "^7.0.1",
+        "tsconfig-paths": "^3.7.0",
+        "typescript": "^3.2.4"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "json",
+            "ts"
+        ],
+        "rootDir": "test",
+        "testRegex": ".test.ts$",
+        "transform": {
+            "^.+\\.(t|j)s$": "ts-jest"
+        },
+        "coverageDirectory": "../coverage",
+        "testEnvironment": "node"
+    },
+    "engines": {
+        "node": ">=8.0.0",
+        "npm": ">=5.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/p455555555/totp.git"
+    },
+    "bugs": {
+        "url": "https://github.com/p455555555/totp/issues"
+      },
+      "homepage": "https://github.com/p455555555/totp",
+    "author": "chenjunhong <p455555555@gmail.com>",
+    "license": "MIT"
+}
