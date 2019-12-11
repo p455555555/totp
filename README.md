@@ -4,9 +4,10 @@
 
 TOTP算法JavaScript实现，可以用于Node.js、浏览器、React Navive环境，支持动态密码生成、效验, 可以搭配Google Authenticator使用
 
-## 更新日志
-2019.12.11  HMAC加密库由Node.js Cypto模块替换为用JavaScript实现的HMACSHA1加密库，现在支持在任何JavaScript环境使用了。
 
+## 更新日志
+
+* [2019.12.11] HMAC加密库由Node.js Cypto模块替换为用JavaScript实现的HMACSHA1加密库，现在支持在任何JavaScript环境使用了。
 
 ## 安装
 
