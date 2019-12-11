@@ -1,11 +1,11 @@
 {
     "name": "@nest-public/totp",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "TOTP算法node.js实现，支持动态密码获取、效验，可以搭配Google Authenticator使用",
     "main": "lib/totp.js",
     "types": "lib/totp.d.ts",
     "files": [
-        "dist"
+        "lib"
     ],
     "scripts": {
         "build": "tsc",
@@ -53,8 +53,8 @@
     },
     "bugs": {
         "url": "https://github.com/p455555555/totp/issues"
-      },
-      "homepage": "https://github.com/p455555555/totp",
+    },
+    "homepage": "https://github.com/p455555555/totp",
     "author": "chenjunhong <p455555555@gmail.com>",
     "license": "MIT"
 }

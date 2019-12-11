@@ -1,9 +1,10 @@
-import { totp } from '../lib/totp';
+import totp from '../src/totp';
 
 const testKey = 'LFLFMU2SGVCUIUCZKBMEKRKLIQ';
   
 test('获取TOTP code,code应该是6位数', () => {
     const result = totp.totp(testKey);
+    console.log('生成6位数key>>',result);
     expect(result).toHaveLength(6); // code 应该是6位数
 });
 

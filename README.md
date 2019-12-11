@@ -1,8 +1,12 @@
 [![npm version](https://badge.fury.io/js/%40nest-public%2Ftotp.svg)](https://badge.fury.io/js/%40nest-public%2Ftotp)
 
-# totp
+# TOTP
 
-TOTP算法node.js实现，支持动态密码生成、效验, 可以搭配Google Authenticator使用
+TOTP算法JavaScript实现，可以用于Node.js、浏览器、React Navive环境，支持动态密码生成、效验, 可以搭配Google Authenticator使用
+
+## 更新日志
+2019.12.11  HMAC加密库由Node.js Cypto模块替换为用JavaScript实现的HMACSHA1加密库，现在支持在任何JavaScript环境使用了。
+
 
 ## 安装
 
@@ -13,7 +17,7 @@ $ npm install @nest-public/totp --save
 ## 用法
 
 ```javascript
-import { totp } from '@nest-public/totp';
+import totp from '@nest-public/totp';
 
 // 设置密钥
 const testKey = 'LFLFMU2SGVCUIUCZKBMEKRKLIQ';

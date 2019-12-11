@@ -2,11 +2,12 @@ interface VerifyReturn {
     status: boolean;
     delta?: number;
 }
-export declare const totp: {
-    getQRCode: (key: string) => any;
-    hotp: (key: string, count: number) => string;
-    hotpVerify: (code: string, key: string, count: number) => VerifyReturn;
-    totp: (key: string) => string;
-    totpVerify: (code: string, key: string) => VerifyReturn;
-};
+export default class totp {
+    static getQRUri(key: string): string;
+    static hotp(key: string, count: number): string;
+    static hotpVerify(code: string, key: string, count: number): VerifyReturn;
+    static totp(key: string): string;
+    static totpVerify(code: string, key: string): VerifyReturn;
+    private static getCount;
+}
 export {};
