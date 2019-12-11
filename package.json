@@ -1,6 +1,6 @@
 {
     "name": "@nest-public/totp",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "TOTP算法node.js实现，支持动态密码获取、效验，可以搭配Google Authenticator使用",
     "main": "lib/totp.js",
     "types": "lib/totp.d.ts",
@@ -8,7 +8,7 @@
         "lib"
     ],
     "scripts": {
-        "build": "tsc",
+        "build": "rm -rf lib && tsc",
         "test": "jest"
     },
     "keywords": [
