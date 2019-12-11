@@ -16,10 +16,6 @@
         "totp",
         "hotp"
     ],
-    "dependencies": {
-        "qr-image": "^3.2.0",
-        "thirty-two": "^1.0.2"
-    },
     "devDependencies": {
         "@types/jest": "^24.0.19",
         "@types/node": "^10.12.18",
