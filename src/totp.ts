@@ -1,5 +1,5 @@
-import util from '../src/util';
-import crypto from '../src/cypto';
+import util from './util';
+import crypto from './cypto';
 
 const DIGIT = 6; // 生成密码位数
 
